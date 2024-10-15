@@ -21,5 +21,5 @@ class Config(object):
     NOCAPDB = mydb["nocapdb"]
     LINKDB = mydb["linkdb"]
     WORKCHAT = mydb["workchat"]
-    #WORKCHAT = os.environ.get('WORKCHAT', '-1001864062112 -1001898212023 -1001951551775 -1002145609723 -1002096154122 -1001994633689 -1002057398189').split()
-    #WORK_CHAT = [int(ch.get("workchat")) if id_pattern.search(ch.get("workchat")) else ch.get("workchat") for ch.get("workchat") in WORKCHAT]
+    WORKCHAT = os.environ.get('WORKCHAT', '-1001864062112').split()
+    WORK_CHAT = [int(ch.get("workchat")) if id_pattern.search(ch.get("workchat")) else ch.get("workchat") for ch.get("workchat") in WORKCHAT]
