@@ -8,7 +8,7 @@ class Config(object):
     # get a token from https://chatbase.com
     CHAT_BASE_TOKEN = os.environ.get("CHAT_BASE_TOKEN", "lskdfjsdj")
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5741250423:AAG_NPgUPrAncCRddyBoEmRr0K_5a7Uh_4I")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5120483476:AAF1GtPyOJIKYWjmytfpOyjVOiCPCaSve1s")
     # The Telegram API things
     APP_ID = int(os.environ.get("APP_ID", 7851526))
     API_HASH = os.environ.get("API_HASH", "93ba4db0ad662e558356871afe8ca6de")
