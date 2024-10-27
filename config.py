@@ -14,7 +14,7 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", "93ba4db0ad662e558356871afe8ca6de")
     # Get these values from my.telegram.org
     # Banned Unwanted Members..
-    MONGODB_URL = os.environ.get("MONGODB_URL", "mongodb+srv://capremnew2:capremnew2@cluster0.en43v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    MONGODB_URL = os.environ.get("MONGODB_URL", "mongodb+srv://Capbot2:Capbot2@cluster0.d683g.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     myclient = pymongo.MongoClient(str(MONGODB_URL))
     mydb = myclient["mutelist"]
     MUTEDB = mydb["words"]
