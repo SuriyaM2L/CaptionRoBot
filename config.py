@@ -22,4 +22,4 @@ class Config(object):
     LINKDB = mydb["linkdb"]
     WORKCHAT = mydb["workchat"]
     WORKCHAT = os.environ.get('WORKCHAT', '0').split()
-    WORK_CHAT = [-1005108074081, -1005236303827, -1005149850821]
+    WORK_CHAT = [-1002057398189, -1001951551775, -1001898212023]
