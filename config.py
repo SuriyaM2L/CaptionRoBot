@@ -8,13 +8,13 @@ class Config(object):
     # get a token from https://chatbase.com
     CHAT_BASE_TOKEN = os.environ.get("CHAT_BASE_TOKEN", "lskdfjsdj")
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5120483476:AAF1GtPyOJIKYWjmytfpOyjVOiCPCaSve1s")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7945670822:AAGcrM94_wiP0Irx4QN7hQ5GWm2LgDdrJ54")
     # The Telegram API things
     APP_ID = int(os.environ.get("APP_ID", 7851526))
     API_HASH = os.environ.get("API_HASH", "93ba4db0ad662e558356871afe8ca6de")
     # Get these values from my.telegram.org
     # Banned Unwanted Members..
-    MONGODB_URL = os.environ.get("MONGODB_URL", "mongodb+srv://CapRem:CapRem@cluster0.i6qtu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    MONGODB_URL = os.environ.get("MONGODB_URL", "mongodb+srv://CapRem1:CapRem1@cluster0.7ifkw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     myclient = pymongo.MongoClient(str(MONGODB_URL))
     mydb = myclient["mutelist"]
     MUTEDB = mydb["words"]
@@ -22,4 +22,4 @@ class Config(object):
     LINKDB = mydb["linkdb"]
     WORKCHAT = mydb["workchat"]
     WORKCHAT = os.environ.get('WORKCHAT', '0').split()
-    WORK_CHAT = [-1001864062112, -1001898212023, -1001951551775, -1002145609723, -1002096154122, -1001994633689, -1002057398189, -1002391056685]
+    WORK_CHAT = [-1005108074081, -1005236303827, -1005149850821]
